@@ -1,25 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Irn-q0-aes">
+    <device id="retina5_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="nj8-BL-vl8">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="Irn-q0-aes" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HDJ-yP-bBU">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSe-5Q-2C9" userLabel="Left">
+                                <rect key="frame" x="0.0" y="0.0" width="44" height="375"/>
+                                <color key="backgroundColor" name="Colors/Red"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jec-oM-czS" userLabel="Middle">
+                                <rect key="frame" x="44" y="0.0" width="724" height="375"/>
+                                <color key="backgroundColor" name="Colors/Blue"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-0L-Doa" userLabel="Right">
+                                <rect key="frame" x="768" y="0.0" width="44" height="375"/>
+                                <color key="backgroundColor" name="Colors/Yellow"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jec-oM-czS" firstAttribute="top" secondItem="HDJ-yP-bBU" secondAttribute="top" id="0la-sx-Qkq"/>
+                            <constraint firstAttribute="bottom" secondItem="eY0-0L-Doa" secondAttribute="bottom" id="4K2-Qy-yfy"/>
+                            <constraint firstItem="eY0-0L-Doa" firstAttribute="top" secondItem="HDJ-yP-bBU" secondAttribute="top" id="5fs-6L-9EK"/>
+                            <constraint firstItem="jec-oM-czS" firstAttribute="leading" secondItem="fSe-5Q-2C9" secondAttribute="trailing" id="GZu-EN-kjO"/>
+                            <constraint firstItem="eY0-0L-Doa" firstAttribute="leading" secondItem="jec-oM-czS" secondAttribute="trailing" id="I12-iH-GB4"/>
+                            <constraint firstItem="fSe-5Q-2C9" firstAttribute="leading" secondItem="HDJ-yP-bBU" secondAttribute="leading" id="JU7-9u-gp7"/>
+                            <constraint firstItem="fSe-5Q-2C9" firstAttribute="top" secondItem="HDJ-yP-bBU" secondAttribute="top" id="PIY-0t-9tY"/>
+                            <constraint firstAttribute="trailing" secondItem="eY0-0L-Doa" secondAttribute="trailing" id="WVk-kZ-VbC"/>
+                            <constraint firstAttribute="bottom" secondItem="fSe-5Q-2C9" secondAttribute="bottom" id="cP3-Bd-4F9"/>
+                            <constraint firstAttribute="bottom" secondItem="jec-oM-czS" secondAttribute="bottom" id="jWU-WG-Rwv"/>
+                            <constraint firstItem="su9-Md-cQh" firstAttribute="trailing" secondItem="jec-oM-czS" secondAttribute="trailing" id="sES-YJ-piq"/>
+                            <constraint firstItem="jec-oM-czS" firstAttribute="leading" secondItem="su9-Md-cQh" secondAttribute="leading" id="wNb-Ie-Hf4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="su9-Md-cQh"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtO-2U-ffA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-247.53694581280789" y="-63.200000000000003"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="Colors/Blue">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Colors/Red">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Colors/Yellow">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
