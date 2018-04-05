@@ -2,11 +2,11 @@ import UIKit
 
 final class ViewController: UIViewController {
     
-    @IBOutlet private var columnButtons: [UIButton] = []
-    @IBOutlet private var discViews: [CircleView] = []
+    @IBOutlet private var boardPositionButtons: [UIButton] = []
+    @IBOutlet private var boardDiscViews: [CircleView] = []
 
-    @IBAction private func userDidTapColumnButton(_ columnButton: UIButton) {
-        print(columnButtons.index(of: columnButton)!)
+    @IBAction private func userDidTapOn(button: UIButton) {
+        print("\(boardPositionButtons.index(of: button))")
     }
 
     override var prefersStatusBarHidden: Bool {
