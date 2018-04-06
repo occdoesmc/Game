@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HLX-JK-64p">
-    <device id="retina5_5" orientation="landscape">
+    <device id="retina5_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,7 +8,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,20 +16,20 @@
             <objects>
                 <viewController id="HLX-JK-64p" customClass="ViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vzp-NW-eDV">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yY6-Pj-RM3">
-                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yY6-Pj-RM3">
+                                <rect key="frame" x="44" y="0.0" width="724" height="354"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gKr-Lm-lJh">
-                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="414"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0E9-kQ-yjT">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HR5-dn-31A" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -39,7 +38,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1s-mW-hVV" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -49,7 +48,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETq-jY-0TI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="7wP-fi-HHg"/>
                                                         </connections>
@@ -72,10 +71,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTs-H0-aa0">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKc-ex-NOp" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -84,7 +83,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSE-yV-ZII" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -94,7 +93,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Df-yP-zPh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="oYW-wd-P9v"/>
                                                         </connections>
@@ -117,10 +116,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHa-Q5-j8Z">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kit-p1-YF0" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -129,7 +128,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AK7-IG-1bv" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -139,7 +138,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-rW-D4O">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="R2d-3E-qXE"/>
                                                         </connections>
@@ -162,10 +161,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltb-Y9-AKY">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDV-uZ-FsE" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -174,7 +173,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxx-9K-0yr" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -184,7 +183,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-wF-FxR">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="ZaK-EI-rxh"/>
                                                         </connections>
@@ -207,10 +206,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rwz-2t-4hb">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uba-ek-ZXC" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -219,7 +218,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jKd-pm-z9z" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -229,7 +228,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1K-VG-dXS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Hxy-j3-4g1"/>
                                                         </connections>
@@ -252,10 +251,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TRX-Bt-pJu">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Lk-hy-Aom" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -264,7 +263,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qiU-g3-qXy" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -274,7 +273,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoV-In-UsH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="uqM-mX-yDv"/>
                                                         </connections>
@@ -299,13 +298,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="I8w-mg-CHW">
-                                        <rect key="frame" x="106.33333333333334" y="0.0" width="98.333333333333343" height="414"/>
+                                        <rect key="frame" x="103.33333333333334" y="0.0" width="103.66666666666666" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xg-Qp-xaG">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RR6-kP-6jG" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -314,7 +313,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w9z-ig-f0z" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -324,7 +323,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pC1-he-pSW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="l6L-i0-G2B"/>
                                                         </connections>
@@ -347,10 +346,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-qX-LzU">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwr-RX-Sqk" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -359,7 +358,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5eI-uQ-LSh" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -369,7 +368,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzE-d2-fWC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="HAv-1h-9hp"/>
                                                         </connections>
@@ -392,10 +391,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LbR-26-edG">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFP-HG-QoW" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -404,7 +403,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6MW-ZS-tfT" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -414,7 +413,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwB-uv-bMu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="ZNh-cA-pfM"/>
                                                         </connections>
@@ -437,10 +436,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FeP-n6-bOp">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7x-Mr-lUy" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -449,7 +448,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4L6-zp-DeD" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -459,7 +458,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK6-wI-LRa">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="jhM-rG-kh1"/>
                                                         </connections>
@@ -482,10 +481,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HtI-dS-593">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zwi-kw-7en" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -494,7 +493,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LOQ-tm-zXm" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -504,7 +503,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXO-dc-xzc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="fhz-eW-Wh5"/>
                                                         </connections>
@@ -527,10 +526,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mtv-Ww-Rqg">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vic-rb-yBv" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -539,7 +538,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8s-4e-fkq" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -549,7 +548,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIX-JG-otG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="rv3-KK-ljU"/>
                                                         </connections>
@@ -574,13 +573,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SqK-Ac-sRK">
-                                        <rect key="frame" x="212.66666666666666" y="0.0" width="98.333333333333343" height="414"/>
+                                        <rect key="frame" x="207.00000000000003" y="0.0" width="103.33333333333334" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3o-sa-HwD">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2Z-gV-1pE" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -589,7 +588,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ItP-XX-hWM" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -599,7 +598,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bmp-oM-N38">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Lpz-i4-3xR"/>
                                                         </connections>
@@ -622,10 +621,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X5a-uI-T3d">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpa-20-9CR" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -634,7 +633,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Paw-cI-IPX" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -644,7 +643,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvM-8K-pL8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="dfR-KA-ocA"/>
                                                         </connections>
@@ -667,10 +666,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PD1-xb-FcA">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMg-XL-YBn" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -679,7 +678,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZS-K1-3cd" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -689,7 +688,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WZ-vK-5nb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="SzK-D9-jXj"/>
                                                         </connections>
@@ -712,10 +711,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-3L-2SD">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9D6-La-9Uz" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -724,7 +723,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuL-Ef-Qbz" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -734,7 +733,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVL-Ot-8CT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="DI9-h9-Em4"/>
                                                         </connections>
@@ -757,10 +756,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Tb-7x-F3P">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Q-4F-nk9" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -769,7 +768,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTo-je-AkF" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -779,7 +778,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVI-WQ-wf4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="rQe-0y-3jf"/>
                                                         </connections>
@@ -802,10 +801,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfx-az-JGr">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TK7-Xq-djt" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -814,7 +813,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4VD-94-e67" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -824,7 +823,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFa-CY-nIV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Y5c-TA-aFT"/>
                                                         </connections>
@@ -849,13 +848,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XG9-El-c0L">
-                                        <rect key="frame" x="319" y="0.0" width="98" height="414"/>
+                                        <rect key="frame" x="310.33333333333331" y="0.0" width="103.33333333333331" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-PG-zq7">
-                                                <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cac-zT-F9F" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -864,7 +863,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jlE-cW-Sm7" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -874,7 +873,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nc-Yk-HjE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="nGl-O2-SwP"/>
                                                         </connections>
@@ -897,10 +896,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDA-gS-cfB">
-                                                <rect key="frame" x="0.0" y="69" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uy3-sG-htA" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -909,7 +908,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kg6-ZB-Szj" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -919,7 +918,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A75-oT-UWh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="brV-U4-rdl"/>
                                                         </connections>
@@ -942,10 +941,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8e-v3-Odq">
-                                                <rect key="frame" x="0.0" y="138" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wal-bl-YNt" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -954,7 +953,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56v-sN-CUv" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -964,7 +963,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPE-qL-0ZQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="AGk-Zj-D77"/>
                                                         </connections>
@@ -987,10 +986,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRX-5N-b2v">
-                                                <rect key="frame" x="0.0" y="207" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-S1-c1c" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -999,7 +998,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4i-K7-qat" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1009,7 +1008,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLj-30-vOz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Qjf-7F-rNE"/>
                                                         </connections>
@@ -1032,10 +1031,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMI-Ap-HC0">
-                                                <rect key="frame" x="0.0" y="276" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dq5-tY-3ci" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1044,7 +1043,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Atw-uj-Khh" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1054,7 +1053,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXd-e8-8DH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="8SQ-5Z-fop"/>
                                                         </connections>
@@ -1077,10 +1076,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mj-5y-wVA">
-                                                <rect key="frame" x="0.0" y="345" width="98" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXW-iU-lXe" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1089,7 +1088,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-GL-FiD" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1099,7 +1098,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGE-dz-8DL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="a9r-ks-u39"/>
                                                         </connections>
@@ -1124,13 +1123,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SIz-Tm-7pP">
-                                        <rect key="frame" x="425" y="0.0" width="98.333333333333371" height="414"/>
+                                        <rect key="frame" x="413.66666666666669" y="0.0" width="103.33333333333331" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YS2-mR-Xgn">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VgQ-1j-GGF" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1139,7 +1138,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ro-BZ-iZ9" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1149,7 +1148,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZG-9n-ivv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Cl1-03-6xe"/>
                                                         </connections>
@@ -1172,10 +1171,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oak-lU-vIi">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-Gw-6sU" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1184,7 +1183,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8n-lH-mWw" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1194,7 +1193,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6q-IT-310">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="wqy-Ia-Cpu"/>
                                                         </connections>
@@ -1217,10 +1216,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4L-5T-Ddj">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jYs-Tk-1Id" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1229,7 +1228,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Nu-zm-OSf" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1239,7 +1238,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-pe-cRg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="1fq-Yr-5NT"/>
                                                         </connections>
@@ -1262,10 +1261,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dl5-zL-Vf9">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s9w-cY-i0O" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1274,7 +1273,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTL-6f-lpa" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1284,7 +1283,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6E-Me-asS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="pLG-b6-ESy"/>
                                                         </connections>
@@ -1307,10 +1306,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKK-3m-evm">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWG-0D-lQv" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1319,7 +1318,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttB-h4-n2c" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1329,7 +1328,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5x-cO-c7g">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="pzm-3x-cu1"/>
                                                         </connections>
@@ -1352,10 +1351,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAd-nx-LkB">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OP2-76-7dM" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1364,7 +1363,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6S4-6s-lFV" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1374,7 +1373,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWj-m4-TKr">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="uuN-yY-fKC"/>
                                                         </connections>
@@ -1399,13 +1398,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="V30-dF-kEq">
-                                        <rect key="frame" x="531.33333333333337" y="0.0" width="98.333333333333371" height="414"/>
+                                        <rect key="frame" x="517" y="0.0" width="103.66666666666663" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAf-wY-QYG">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNd-vg-Uv1" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1414,7 +1413,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pfd-Pt-Qlz" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1424,7 +1423,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qw-6O-c5I">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="fqZ-Hd-M7o"/>
                                                         </connections>
@@ -1447,10 +1446,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N2w-Qq-BzW">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YNn-jP-fia" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1459,7 +1458,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KK4-7w-GLu" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1469,7 +1468,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mh-Lf-iMg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="HwJ-LD-GjP"/>
                                                         </connections>
@@ -1492,10 +1491,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GLQ-QH-zu4">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KkK-Qa-7A2" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1504,7 +1503,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUS-3r-jkl" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1514,7 +1513,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTr-jf-0hG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="UMK-cw-r71"/>
                                                         </connections>
@@ -1537,10 +1536,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3tS-PN-vva">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-a5-CUh" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1549,7 +1548,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xfm-Wh-mZv" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1559,7 +1558,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTI-u9-4uT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="831-Rz-BoT"/>
                                                         </connections>
@@ -1582,10 +1581,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGJ-8w-xWn">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vR2-jO-TGB" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1594,7 +1593,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBd-hm-u9F" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1604,7 +1603,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRo-8X-wBE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="Ls7-Ak-TiC"/>
                                                         </connections>
@@ -1627,10 +1626,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgM-m3-fVv">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.66666666666667" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adC-xO-l8K" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1639,7 +1638,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="08O-M8-MiF" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1649,7 +1648,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYb-mS-6zg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="N1a-TE-VTt"/>
                                                         </connections>
@@ -1674,13 +1673,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yej-SQ-8N5">
-                                        <rect key="frame" x="637.66666666666663" y="0.0" width="98.333333333333371" height="414"/>
+                                        <rect key="frame" x="620.66666666666663" y="0.0" width="103.33333333333337" height="354"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yv-wh-Ijl">
-                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TnH-Iw-WLz" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1689,7 +1688,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2on-bP-vYa" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1699,7 +1698,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zd-GH-zWg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="K5a-NQ-H2i"/>
                                                         </connections>
@@ -1722,10 +1721,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-XA-Fgf">
-                                                <rect key="frame" x="0.0" y="69" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="59" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fk-Ha-hV2" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1734,7 +1733,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UX9-e2-ckP" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1744,7 +1743,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaZ-EY-gAI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="ulM-Vb-WN0"/>
                                                         </connections>
@@ -1767,10 +1766,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LDp-lH-ygP">
-                                                <rect key="frame" x="0.0" y="138" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="118" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4X-c8-PJ1" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1779,7 +1778,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCY-C8-LZX" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1789,7 +1788,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpe-kf-rMM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="WFx-ba-jIY"/>
                                                         </connections>
@@ -1812,10 +1811,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xD-cd-yIY">
-                                                <rect key="frame" x="0.0" y="207" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="177" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzw-sa-ZGI" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1824,7 +1823,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bq-L7-m3Z" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1834,7 +1833,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uag-SS-5oP">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="hFi-Q0-kzg"/>
                                                         </connections>
@@ -1857,10 +1856,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffa-sz-hPp">
-                                                <rect key="frame" x="0.0" y="276" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="236" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hr-7V-ydo" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1869,7 +1868,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSl-An-Rmd" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1879,7 +1878,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBh-hg-YAw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="DRo-YN-I2d"/>
                                                         </connections>
@@ -1902,10 +1901,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O2r-3L-FKa">
-                                                <rect key="frame" x="0.0" y="345" width="98.333333333333329" height="69"/>
+                                                <rect key="frame" x="0.0" y="295" width="103.33333333333333" height="59"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekF-vN-5FN" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Yellow"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="circleMargin">
@@ -1914,7 +1913,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZgV-DL-aOc" customClass="CircleView" customModule="Game" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <color key="backgroundColor" name="Colors/Blue"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isInverted" value="YES"/>
@@ -1924,7 +1923,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh7-1O-egZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="69"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="59"/>
                                                         <connections>
                                                             <action selector="userDidTapOnButton:" destination="HLX-JK-64p" eventType="touchUpInside" id="yep-Sz-6Eg"/>
                                                         </connections>
@@ -1951,15 +1950,14 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foZ-ek-lbH" userLabel="Left">
-                                <rect key="frame" x="736" y="0.0" width="0.0" height="414"/>
+                                <rect key="frame" x="768" y="0.0" width="44" height="375"/>
                                 <color key="backgroundColor" name="Colors/Yellow"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FrD-vS-qoU" userLabel="Right">
-                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="414"/>
+                                <rect key="frame" x="0.0" y="0.0" width="44" height="375"/>
                                 <color key="backgroundColor" name="Colors/Red"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" name="Colors/Blue"/>
                         <constraints>
                             <constraint firstItem="RoN-yW-mVA" firstAttribute="bottom" secondItem="yY6-Pj-RM3" secondAttribute="bottom" id="3Am-Ny-VJV"/>
                             <constraint firstItem="yY6-Pj-RM3" firstAttribute="leading" secondItem="RoN-yW-mVA" secondAttribute="leading" id="3GI-8S-UdT"/>
