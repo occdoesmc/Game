@@ -13,7 +13,7 @@
 		55798BDD2048782F00EB7F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55798BDB2048782F00EB7F2F /* Main.storyboard */; };
 		55798BDF2048782F00EB7F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55798BDE2048782F00EB7F2F /* Assets.xcassets */; };
 		55798BE22048782F00EB7F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55798BE02048782F00EB7F2F /* LaunchScreen.storyboard */; };
-		55798BF02048783E00EB7F2F /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55798BEF2048783E00EB7F2F /* GameTests.swift */; };
+		55798BF02048783E00EB7F2F /* BoardLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */; };
 		558D526A2049C4DB004721D4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D52692049C4DB004721D4 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		55798BE12048782F00EB7F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55798BE32048782F00EB7F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55798BED2048783D00EB7F2F /* GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55798BEF2048783E00EB7F2F /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardLayoutTests.swift; sourceTree = "<group>"; };
 		55798BF12048783E00EB7F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558D52692049C4DB004721D4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 		55798BEE2048783E00EB7F2F /* GameTests */ = {
 			isa = PBXGroup;
 			children = (
-				55798BEF2048783E00EB7F2F /* GameTests.swift */,
+				55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */,
 				55798BF12048783E00EB7F2F /* Info.plist */,
 			);
 			path = GameTests;
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55798BF02048783E00EB7F2F /* GameTests.swift in Sources */,
+				55798BF02048783E00EB7F2F /* BoardLayoutTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
