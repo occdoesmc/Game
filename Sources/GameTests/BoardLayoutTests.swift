@@ -1,15 +1,6 @@
 import XCTest
 
-final class BoardLayoutTests: XCTestCase {
-
-    private let application = XCUIApplication()
-    private let boardRowsPerColumn = 6
-    private let boardColumnsPerRow = 7
-
-    override func setUp() {
-        super.setUp()
-        application.launch()
-    }
+final class BoardLayoutTests: TestCase {
 
     func testNumberOfButtons() {
         XCTAssertEqual(application.buttons.count, boardColumnsPerRow * boardRowsPerColumn)
@@ -189,12 +180,6 @@ final class BoardLayoutTests: XCTestCase {
         XCTAssertEqual(buttonAt(x: 6, y: 2).frame.maxY, buttonAt(x: 6, y: 3).frame.minY, accuracy: 1)
         XCTAssertEqual(buttonAt(x: 6, y: 3).frame.maxY, buttonAt(x: 6, y: 4).frame.minY, accuracy: 1)
         XCTAssertEqual(buttonAt(x: 6, y: 4).frame.maxY, buttonAt(x: 6, y: 5).frame.minY, accuracy: 1)
-    }
-
-    private func buttonAt(x: Int, y: Int) -> XCUIElement {
-        let index = x * boardRowsPerColumn + y
-        let button = application.buttons.element(boundBy: index)
-        return button
     }
 
 }
