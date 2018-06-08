@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		55798BE22048782F00EB7F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55798BE02048782F00EB7F2F /* LaunchScreen.storyboard */; };
 		55798BF02048783E00EB7F2F /* BoardLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */; };
 		558D526A2049C4DB004721D4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D52692049C4DB004721D4 /* CircleView.swift */; };
+		55E95AF720CAF5CB00E459F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E95AF920CAF5CB00E459F9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardLayoutTests.swift; sourceTree = "<group>"; };
 		55798BF12048783E00EB7F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558D52692049C4DB004721D4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		55E95AF820CAF5CB00E459F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				55798BF82048788900EB7F2F /* Controller */,
 				55798BF92048789600EB7F2F /* View */,
 				55798BE32048782F00EB7F2F /* Info.plist */,
+				55E95AF920CAF5CB00E459F9 /* Localizable.strings */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 				};
 			};
 			buildConfigurationList = 55798BCF2048782F00EB7F2F /* Build configuration list for PBXProject "Game" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55798BE22048782F00EB7F2F /* LaunchScreen.storyboard in Resources */,
+				55E95AF720CAF5CB00E459F9 /* Localizable.strings in Resources */,
 				55798BDF2048782F00EB7F2F /* Assets.xcassets in Resources */,
 				55798BDD2048782F00EB7F2F /* Main.storyboard in Resources */,
 			);
@@ -279,6 +283,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		55E95AF920CAF5CB00E459F9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E95AF820CAF5CB00E459F9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -333,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,10 +399,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -402,7 +415,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVYGD8LLE9;
 				INFOPLIST_FILE = Game/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.occ.Game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -417,7 +433,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVYGD8LLE9;
 				INFOPLIST_FILE = Game/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.occ.Game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -431,7 +450,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVYGD8LLE9;
 				INFOPLIST_FILE = GameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.occ.GameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,7 +469,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVYGD8LLE9;
 				INFOPLIST_FILE = GameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.occ.GameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
