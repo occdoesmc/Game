@@ -1,6 +1,6 @@
 import UIKit
 
-final class ViewController: UIViewController {
+final class BoardViewController: UIViewController {
     @IBOutlet private var boardPositionButtons: [UIButton] = []
     @IBOutlet private var boardDiscViews: [CircleView] = []
 
@@ -19,7 +19,7 @@ final class ViewController: UIViewController {
     }
 }
 
-extension ViewController: BoardDelegate {
+extension BoardViewController: BoardDelegate {
     func board(_ board: Board, didUpdate disc: BoardDisc, atIndex index: Int) {
         let discColorName: String
         let discAccessibilityLabel: String
