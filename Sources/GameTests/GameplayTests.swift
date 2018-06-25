@@ -1,7 +1,6 @@
 import XCTest
 
 final class GameplayTests: TestCase {
-
     func testBoardIsEmptyWhenGameStarts() {
         XCTAssertEqual(buttonAt(x: 0, y: 0).label, "Empty")
         XCTAssertEqual(buttonAt(x: 0, y: 1).label, "Empty")
@@ -45,5 +44,4 @@ final class GameplayTests: TestCase {
         XCTAssertEqual(buttonAt(x: 5, y: 4).label, "Empty")
         XCTAssertEqual(buttonAt(x: 5, y: 5).label, "Empty")
     }
-
 }

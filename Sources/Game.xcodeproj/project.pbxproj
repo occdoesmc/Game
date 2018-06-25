@@ -142,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55798BE62048782F00EB7F2F /* Build configuration list for PBXNativeTarget "Game" */;
 			buildPhases = (
+				5587265E20E12B75000E151D /* Run SwiftLint */,
 				55798BD02048782F00EB7F2F /* Sources */,
 				55798BD12048782F00EB7F2F /* Frameworks */,
 				55798BD22048782F00EB7F2F /* Resources */,
@@ -233,6 +234,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5587265E20E12B75000E151D /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh -e";
+			shellScript = swiftlint;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55798BD02048782F00EB7F2F /* Sources */ = {

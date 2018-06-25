@@ -1,7 +1,6 @@
 import UIKit
 
 @IBDesignable final class CircleView: UIView {
-
     @IBInspectable var isInverted: Bool = false {
         didSet {
             updateMask()
@@ -13,7 +12,6 @@ import UIKit
             updateMask()
         }
     }
-    
     override func layoutSubviews() {
         super.layoutSubviews()
         updateMask()
@@ -42,5 +40,4 @@ import UIKit
         imageView.frame = bounds
         mask = imageView
     }
-
 }

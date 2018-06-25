@@ -1,0 +1,16 @@
+disabled_rules:
+  - line_length
+
+custom_rules:
+  vertical_whitespace_opening_braces:
+    included: ".*.swift"
+    regex: '[{(\[][ \t]*\n[ \t]*\n'
+    name: "Vertical Whitespace after Opening Braces"
+    message: "Don't include vertical whitespace (empty line) after opening braces."
+    severity: warning
+  vertical_whitespace_closing_braces:
+    included: ".*.swift"
+    regex: '\n[ \t]*\n[ \t]*[)}\]]'
+    name: "Vertical Whitespace before Closing Braces"
+    message: "Don't include vertical whitespace (empty line) before closing braces."
+    severity: warning

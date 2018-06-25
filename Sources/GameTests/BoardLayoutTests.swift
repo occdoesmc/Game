@@ -1,7 +1,6 @@
 import XCTest
 
 final class BoardLayoutTests: TestCase {
-
     func testNumberOfButtons() {
         XCTAssertEqual(application.buttons.count, boardColumnsPerRow * boardRowsPerColumn)
     }
@@ -181,5 +180,4 @@ final class BoardLayoutTests: TestCase {
         XCTAssertEqual(buttonAt(x: 6, y: 3).frame.maxY, buttonAt(x: 6, y: 4).frame.minY, accuracy: 1)
         XCTAssertEqual(buttonAt(x: 6, y: 4).frame.maxY, buttonAt(x: 6, y: 5).frame.minY, accuracy: 1)
     }
-
 }
