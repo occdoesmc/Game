@@ -87,12 +87,13 @@
 		55798BD62048782F00EB7F2F /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				55798BD72048782F00EB7F2F /* AppDelegate.swift */,
 				55798BE02048782F00EB7F2F /* LaunchScreen.storyboard */,
 				55798BDB2048782F00EB7F2F /* Main.storyboard */,
-				55798BF72048787300EB7F2F /* Model */,
-				55798BF82048788900EB7F2F /* Controller */,
-				55798BF92048789600EB7F2F /* View */,
+				55798BD72048782F00EB7F2F /* AppDelegate.swift */,
+				550CC1B820727D46004914DB /* Board.swift */,
+				55798BD92048782F00EB7F2F /* BoardViewController.swift */,
+				558D52692049C4DB004721D4 /* CircleView.swift */,
+				55798BDE2048782F00EB7F2F /* Assets.xcassets */,
 				55798BE32048782F00EB7F2F /* Info.plist */,
 				55E95AF920CAF5CB00E459F9 /* Localizable.strings */,
 			);
@@ -108,31 +109,6 @@
 				55798BF12048783E00EB7F2F /* Info.plist */,
 			);
 			path = GameTests;
-			sourceTree = "<group>";
-		};
-		55798BF72048787300EB7F2F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				550CC1B820727D46004914DB /* Board.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		55798BF82048788900EB7F2F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				55798BD92048782F00EB7F2F /* BoardViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		55798BF92048789600EB7F2F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				55798BDE2048782F00EB7F2F /* Assets.xcassets */,
-				558D52692049C4DB004721D4 /* CircleView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
