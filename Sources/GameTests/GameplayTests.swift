@@ -44,4 +44,12 @@ final class GameplayTests: TestCase {
         XCTAssertEqual(buttonAt(x: 5, y: 4).label, "Empty")
         XCTAssertEqual(buttonAt(x: 5, y: 5).label, "Empty")
     }
+
+    func testPlayerTurnIndicator() {
+        XCTAssertTrue(application.staticTexts["It’s First Player’s Turn"].exists)
+        XCTAssertTrue(application.staticTexts["Second Player"].exists)
+
+        XCTAssertFalse(application.staticTexts["First Player"].exists)
+        XCTAssertFalse(application.staticTexts["It’s Second Player’s Turn"].exists)
+    }
 }
