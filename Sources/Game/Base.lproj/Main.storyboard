@@ -1949,6 +1949,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="Colors/Gray"/>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FrD-vS-qoU">
                                 <rect key="frame" x="0.0" y="0.0" width="199.66666666666666" height="375"/>
@@ -1967,6 +1968,7 @@
                                 </accessibility>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" name="Colors/Blue"/>
                         <constraints>
                             <constraint firstItem="RoN-yW-mVA" firstAttribute="bottom" secondItem="yY6-Pj-RM3" secondAttribute="bottom" id="3Am-Ny-VJV"/>
                             <constraint firstItem="FrD-vS-qoU" firstAttribute="top" secondItem="vzp-NW-eDV" secondAttribute="top" id="BcZ-Xx-tc2"/>

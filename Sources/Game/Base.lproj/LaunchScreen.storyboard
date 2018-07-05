@@ -20,18 +20,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSe-5Q-2C9" userLabel="Left">
-                                <rect key="frame" x="0.0" y="0.0" width="199.66666666666666" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="187.33333333333334" height="375"/>
                                 <color key="backgroundColor" name="Colors/Red"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jec-oM-czS" userLabel="Board">
-                                <rect key="frame" x="199.66666666666663" y="0.0" width="413" height="354"/>
+                                <rect key="frame" x="187.33333333333334" y="0.0" width="437.33333333333326" height="375"/>
                                 <color key="backgroundColor" name="Colors/Blue"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jec-oM-czS" secondAttribute="height" multiplier="7:6" id="MmW-nc-ur3"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-0L-Doa" userLabel="Right">
-                                <rect key="frame" x="612.66666666666663" y="0.0" width="199.33333333333337" height="375"/>
+                                <rect key="frame" x="624.66666666666663" y="0.0" width="187.33333333333337" height="375"/>
                                 <color key="backgroundColor" name="Colors/Yellow"/>
                             </view>
                         </subviews>
@@ -47,7 +47,7 @@
                             <constraint firstItem="fSe-5Q-2C9" firstAttribute="top" secondItem="HDJ-yP-bBU" secondAttribute="top" id="PIY-0t-9tY"/>
                             <constraint firstAttribute="trailing" secondItem="eY0-0L-Doa" secondAttribute="trailing" id="WVk-kZ-VbC"/>
                             <constraint firstAttribute="bottom" secondItem="fSe-5Q-2C9" secondAttribute="bottom" id="cP3-Bd-4F9"/>
-                            <constraint firstItem="su9-Md-cQh" firstAttribute="bottom" secondItem="jec-oM-czS" secondAttribute="bottom" id="jWU-WG-Rwv"/>
+                            <constraint firstAttribute="bottom" secondItem="jec-oM-czS" secondAttribute="bottom" id="jWU-WG-Rwv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="su9-Md-cQh"/>
                     </view>
