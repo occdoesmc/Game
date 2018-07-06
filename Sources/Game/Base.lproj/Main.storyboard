@@ -54,7 +54,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="HR5-dn-31A" secondAttribute="bottom" id="4Ma-cO-B9y"/>
                                                     <constraint firstItem="ETq-jY-0TI" firstAttribute="top" secondItem="0E9-kQ-yjT" secondAttribute="top" id="BOM-Xa-UmD"/>
@@ -100,7 +100,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="gKc-ex-NOp" firstAttribute="leading" secondItem="tTs-H0-aa0" secondAttribute="leading" id="91a-VK-L0K"/>
                                                     <constraint firstAttribute="trailing" secondItem="6Df-yP-zPh" secondAttribute="trailing" id="BXO-Sj-Lff"/>
@@ -145,7 +145,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="AK7-IG-1bv" secondAttribute="trailing" id="2Ut-rB-aFu"/>
                                                     <constraint firstAttribute="bottom" secondItem="BsM-rW-D4O" secondAttribute="bottom" id="ADe-hm-CA8"/>
@@ -190,7 +190,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="WDV-uZ-FsE" secondAttribute="trailing" id="2PQ-hL-xif"/>
                                                     <constraint firstItem="WQl-wF-FxR" firstAttribute="leading" secondItem="ltb-Y9-AKY" secondAttribute="leading" id="9NV-kR-GGa"/>
@@ -235,7 +235,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="b1K-VG-dXS" firstAttribute="leading" secondItem="rwz-2t-4hb" secondAttribute="leading" id="0Sz-Qe-aM6"/>
                                                     <constraint firstItem="uba-ek-ZXC" firstAttribute="leading" secondItem="rwz-2t-4hb" secondAttribute="leading" id="64e-Px-1i5"/>
@@ -280,7 +280,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="OoV-In-UsH" firstAttribute="leading" secondItem="TRX-Bt-pJu" secondAttribute="leading" id="5mr-AK-14q"/>
                                                     <constraint firstAttribute="bottom" secondItem="qiU-g3-qXy" secondAttribute="bottom" id="Fh0-4C-Oyd"/>
@@ -330,7 +330,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="pC1-he-pSW" secondAttribute="bottom" id="9bC-YJ-ZAC"/>
                                                     <constraint firstAttribute="bottom" secondItem="RR6-kP-6jG" secondAttribute="bottom" id="EuX-VV-ZYT"/>
@@ -375,7 +375,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="dwr-RX-Sqk" secondAttribute="bottom" id="3BP-by-Zo5"/>
                                                     <constraint firstAttribute="bottom" secondItem="tzE-d2-fWC" secondAttribute="bottom" id="E2u-RE-hXG"/>
@@ -420,7 +420,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="EwB-uv-bMu" firstAttribute="top" secondItem="LbR-26-edG" secondAttribute="top" id="7Xu-BV-aee"/>
                                                     <constraint firstAttribute="bottom" secondItem="xFP-HG-QoW" secondAttribute="bottom" id="DPv-qK-LU8"/>
@@ -465,7 +465,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="VK6-wI-LRa" secondAttribute="bottom" id="5eJ-PF-UFe"/>
                                                     <constraint firstAttribute="trailing" secondItem="VK6-wI-LRa" secondAttribute="trailing" id="6Wz-ZT-3Jk"/>
@@ -510,7 +510,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="Zwi-kw-7en" secondAttribute="trailing" id="4Bs-aV-mcK"/>
                                                     <constraint firstItem="LOQ-tm-zXm" firstAttribute="top" secondItem="HtI-dS-593" secondAttribute="top" id="Cx7-tu-acu"/>
@@ -555,7 +555,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="u8s-4e-fkq" secondAttribute="trailing" id="4lb-Ij-wMq"/>
                                                     <constraint firstAttribute="bottom" secondItem="u8s-4e-fkq" secondAttribute="bottom" id="6b1-It-Ezs"/>
@@ -605,7 +605,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="Bmp-oM-N38" firstAttribute="top" secondItem="b3o-sa-HwD" secondAttribute="top" id="5u1-bd-uAX"/>
                                                     <constraint firstItem="Bmp-oM-N38" firstAttribute="leading" secondItem="b3o-sa-HwD" secondAttribute="leading" id="FWF-is-idc"/>
@@ -650,7 +650,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="Paw-cI-IPX" secondAttribute="trailing" id="3pm-Cx-UxI"/>
                                                     <constraint firstAttribute="bottom" secondItem="Tpa-20-9CR" secondAttribute="bottom" id="IaW-fD-Fpz"/>
@@ -695,7 +695,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="cZS-K1-3cd" secondAttribute="bottom" id="39F-2B-2IK"/>
                                                     <constraint firstItem="1WZ-vK-5nb" firstAttribute="top" secondItem="PD1-xb-FcA" secondAttribute="top" id="FCU-MX-LOe"/>
@@ -740,7 +740,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="pVL-Ot-8CT" firstAttribute="leading" secondItem="Itz-3L-2SD" secondAttribute="leading" id="1yh-lN-skB"/>
                                                     <constraint firstItem="kuL-Ef-Qbz" firstAttribute="leading" secondItem="Itz-3L-2SD" secondAttribute="leading" id="7gR-Gx-Eg6"/>
@@ -785,7 +785,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="HTo-je-AkF" firstAttribute="top" secondItem="4Tb-7x-F3P" secondAttribute="top" id="4Pa-4r-ozx"/>
                                                     <constraint firstAttribute="trailing" secondItem="nVI-WQ-wf4" secondAttribute="trailing" id="5Rh-lM-PhI"/>
@@ -830,7 +830,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="4VD-94-e67" firstAttribute="leading" secondItem="pfx-az-JGr" secondAttribute="leading" id="64w-Zz-wfF"/>
                                                     <constraint firstItem="TK7-Xq-djt" firstAttribute="top" secondItem="pfx-az-JGr" secondAttribute="top" id="Ajs-sd-hcg"/>
@@ -880,7 +880,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="jlE-cW-Sm7" secondAttribute="trailing" id="0hY-ek-rhd"/>
                                                     <constraint firstItem="jlE-cW-Sm7" firstAttribute="top" secondItem="ko7-PG-zq7" secondAttribute="top" id="5fR-Xf-aqh"/>
@@ -925,7 +925,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="kg6-ZB-Szj" firstAttribute="leading" secondItem="bDA-gS-cfB" secondAttribute="leading" id="6o8-RU-iPn"/>
                                                     <constraint firstAttribute="bottom" secondItem="A75-oT-UWh" secondAttribute="bottom" id="7ru-Cr-8tb"/>
@@ -970,7 +970,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="aPE-qL-0ZQ" secondAttribute="bottom" id="2wI-eM-8ei"/>
                                                     <constraint firstItem="Wal-bl-YNt" firstAttribute="top" secondItem="R8e-v3-Odq" secondAttribute="top" id="3rv-xd-Da4"/>
@@ -1015,7 +1015,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="H4y-S1-c1c" firstAttribute="top" secondItem="FRX-5N-b2v" secondAttribute="top" id="1It-a6-UcU"/>
                                                     <constraint firstItem="H4y-S1-c1c" firstAttribute="leading" secondItem="FRX-5N-b2v" secondAttribute="leading" id="90e-Fx-Y8U"/>
@@ -1060,7 +1060,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="dq5-tY-3ci" secondAttribute="bottom" id="1QQ-bc-aFk"/>
                                                     <constraint firstItem="Atw-uj-Khh" firstAttribute="top" secondItem="gMI-Ap-HC0" secondAttribute="top" id="50I-3B-fTP"/>
@@ -1105,7 +1105,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="EXW-iU-lXe" firstAttribute="leading" secondItem="6mj-5y-wVA" secondAttribute="leading" id="9Ul-LP-t7S"/>
                                                     <constraint firstAttribute="trailing" secondItem="tgJ-GL-FiD" secondAttribute="trailing" id="Nyx-IT-zjf"/>
@@ -1155,7 +1155,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="fZG-9n-ivv" secondAttribute="bottom" id="8wv-1j-sKH"/>
                                                     <constraint firstItem="7Ro-BZ-iZ9" firstAttribute="top" secondItem="YS2-mR-Xgn" secondAttribute="top" id="MN3-TX-9Nc"/>
@@ -1200,7 +1200,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="n8n-lH-mWw" secondAttribute="bottom" id="01L-E6-GVX"/>
                                                     <constraint firstAttribute="trailing" secondItem="XoC-Gw-6sU" secondAttribute="trailing" id="18P-bO-cQF"/>
@@ -1245,7 +1245,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="jYs-Tk-1Id" firstAttribute="leading" secondItem="s4L-5T-Ddj" secondAttribute="leading" id="6Hl-Al-HhW"/>
                                                     <constraint firstAttribute="bottom" secondItem="jYs-Tk-1Id" secondAttribute="bottom" id="6IF-aV-HHo"/>
@@ -1290,7 +1290,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="qTL-6f-lpa" firstAttribute="top" secondItem="dl5-zL-Vf9" secondAttribute="top" id="1Tx-Jg-S4e"/>
                                                     <constraint firstAttribute="trailing" secondItem="s9w-cY-i0O" secondAttribute="trailing" id="2bl-lh-zYM"/>
@@ -1335,7 +1335,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="ttB-h4-n2c" secondAttribute="trailing" id="2zc-uf-M8Z"/>
                                                     <constraint firstAttribute="bottom" secondItem="k5x-cO-c7g" secondAttribute="bottom" id="Ht2-Wc-MlH"/>
@@ -1380,7 +1380,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="6S4-6s-lFV" firstAttribute="leading" secondItem="qAd-nx-LkB" secondAttribute="leading" id="8uy-zH-SEL"/>
                                                     <constraint firstAttribute="trailing" secondItem="XWj-m4-TKr" secondAttribute="trailing" id="BWo-xk-Cb9"/>
@@ -1430,7 +1430,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="NNd-vg-Uv1" secondAttribute="trailing" id="4Gt-el-9Ug"/>
                                                     <constraint firstAttribute="trailing" secondItem="8qw-6O-c5I" secondAttribute="trailing" id="4i8-Pc-b1B"/>
@@ -1475,7 +1475,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="4mh-Lf-iMg" firstAttribute="top" secondItem="N2w-Qq-BzW" secondAttribute="top" id="9cX-ag-oZq"/>
                                                     <constraint firstItem="KK4-7w-GLu" firstAttribute="leading" secondItem="N2w-Qq-BzW" secondAttribute="leading" id="9lg-j0-SGG"/>
@@ -1520,7 +1520,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="gUS-3r-jkl" firstAttribute="leading" secondItem="GLQ-QH-zu4" secondAttribute="leading" id="3PJ-hb-QUK"/>
                                                     <constraint firstItem="KkK-Qa-7A2" firstAttribute="top" secondItem="GLQ-QH-zu4" secondAttribute="top" id="7rL-Fu-dDx"/>
@@ -1565,7 +1565,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="8Id-a5-CUh" secondAttribute="bottom" id="0p8-Az-fh4"/>
                                                     <constraint firstItem="8Id-a5-CUh" firstAttribute="top" secondItem="3tS-PN-vva" secondAttribute="top" id="2hz-EI-ffL"/>
@@ -1610,7 +1610,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="XRo-8X-wBE" secondAttribute="bottom" id="8Ps-FZ-2lD"/>
                                                     <constraint firstItem="vR2-jO-TGB" firstAttribute="leading" secondItem="qGJ-8w-xWn" secondAttribute="leading" id="A7V-tM-zmu"/>
@@ -1655,7 +1655,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="08O-M8-MiF" secondAttribute="trailing" id="5Fv-5A-9l9"/>
                                                     <constraint firstAttribute="trailing" secondItem="jYb-mS-6zg" secondAttribute="trailing" id="7ua-jW-tNM"/>
@@ -1705,7 +1705,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="2on-bP-vYa" secondAttribute="bottom" id="2VL-My-dNW"/>
                                                     <constraint firstItem="TnH-Iw-WLz" firstAttribute="leading" secondItem="5yv-wh-Ijl" secondAttribute="leading" id="2bg-av-lgr"/>
@@ -1750,7 +1750,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="UX9-e2-ckP" firstAttribute="leading" secondItem="uzB-XA-Fgf" secondAttribute="leading" id="5nH-mG-ayb"/>
                                                     <constraint firstItem="1Fk-Ha-hV2" firstAttribute="leading" secondItem="uzB-XA-Fgf" secondAttribute="leading" id="8E5-ay-8mD"/>
@@ -1795,7 +1795,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="eCY-C8-LZX" secondAttribute="trailing" id="7gW-be-WQ6"/>
                                                     <constraint firstAttribute="bottom" secondItem="hpe-kf-rMM" secondAttribute="bottom" id="AbS-ZR-Rco"/>
@@ -1840,7 +1840,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="mzw-sa-ZGI" secondAttribute="trailing" id="05h-Ii-OAQ"/>
                                                     <constraint firstAttribute="trailing" secondItem="uag-SS-5oP" secondAttribute="trailing" id="3np-wT-9hi"/>
@@ -1885,7 +1885,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="4hr-7V-ydo" secondAttribute="bottom" id="0sj-6l-Yt3"/>
                                                     <constraint firstAttribute="trailing" secondItem="4hr-7V-ydo" secondAttribute="trailing" id="1wk-Ua-J3X"/>
@@ -1930,7 +1930,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Colors/Gray"/>
+                                                <color key="backgroundColor" name="Colors/LightGray"/>
                                                 <constraints>
                                                     <constraint firstItem="ZgV-DL-aOc" firstAttribute="top" secondItem="O2r-3L-FKa" secondAttribute="top" id="2VN-j5-Yyf"/>
                                                     <constraint firstAttribute="trailing" secondItem="ekF-vN-5FN" secondAttribute="trailing" id="9DW-ru-SDY"/>
@@ -1949,9 +1949,8 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" name="Colors/Gray"/>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FrD-vS-qoU">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ce3-HQ-tPg">
                                 <rect key="frame" x="0.0" y="0.0" width="199.66666666666666" height="375"/>
                                 <color key="backgroundColor" name="Colors/Red"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -1959,7 +1958,7 @@
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foZ-ek-lbH">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XEr-hn-ZcS">
                                 <rect key="frame" x="612.66666666666663" y="0.0" width="199.33333333333337" height="375"/>
                                 <color key="backgroundColor" name="Colors/Yellow"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -1971,22 +1970,22 @@
                         <color key="backgroundColor" name="Colors/Blue"/>
                         <constraints>
                             <constraint firstItem="RoN-yW-mVA" firstAttribute="bottom" secondItem="yY6-Pj-RM3" secondAttribute="bottom" id="3Am-Ny-VJV"/>
-                            <constraint firstItem="FrD-vS-qoU" firstAttribute="top" secondItem="vzp-NW-eDV" secondAttribute="top" id="BcZ-Xx-tc2"/>
+                            <constraint firstItem="XEr-hn-ZcS" firstAttribute="leading" secondItem="yY6-Pj-RM3" secondAttribute="trailing" id="821-T8-3Qq"/>
+                            <constraint firstAttribute="bottom" secondItem="XEr-hn-ZcS" secondAttribute="bottom" id="E9v-dN-pt9"/>
                             <constraint firstItem="yY6-Pj-RM3" firstAttribute="centerX" secondItem="vzp-NW-eDV" secondAttribute="centerX" id="IJ0-fI-XKd"/>
-                            <constraint firstAttribute="trailing" secondItem="foZ-ek-lbH" secondAttribute="trailing" id="JXD-ze-tO0"/>
-                            <constraint firstItem="foZ-ek-lbH" firstAttribute="top" secondItem="vzp-NW-eDV" secondAttribute="top" id="gBN-F0-8bu"/>
-                            <constraint firstAttribute="bottom" secondItem="FrD-vS-qoU" secondAttribute="bottom" id="h6H-Y4-LET"/>
-                            <constraint firstItem="yY6-Pj-RM3" firstAttribute="leading" secondItem="FrD-vS-qoU" secondAttribute="trailing" id="iR5-YG-mC4"/>
-                            <constraint firstAttribute="bottom" secondItem="foZ-ek-lbH" secondAttribute="bottom" id="jSd-Ow-nRB"/>
-                            <constraint firstItem="foZ-ek-lbH" firstAttribute="leading" secondItem="yY6-Pj-RM3" secondAttribute="trailing" id="lam-tK-RSx"/>
+                            <constraint firstItem="ce3-HQ-tPg" firstAttribute="top" secondItem="vzp-NW-eDV" secondAttribute="top" id="QGZ-nz-8Kz"/>
+                            <constraint firstAttribute="bottom" secondItem="ce3-HQ-tPg" secondAttribute="bottom" id="TVs-oM-lhH"/>
+                            <constraint firstAttribute="trailing" secondItem="XEr-hn-ZcS" secondAttribute="trailing" id="fwy-m5-hc6"/>
                             <constraint firstItem="yY6-Pj-RM3" firstAttribute="top" secondItem="RoN-yW-mVA" secondAttribute="top" id="lt1-je-Yla"/>
-                            <constraint firstItem="FrD-vS-qoU" firstAttribute="leading" secondItem="vzp-NW-eDV" secondAttribute="leading" id="sK6-GP-fSf"/>
+                            <constraint firstItem="XEr-hn-ZcS" firstAttribute="top" secondItem="vzp-NW-eDV" secondAttribute="top" id="qtF-l2-k8B"/>
+                            <constraint firstItem="ce3-HQ-tPg" firstAttribute="leading" secondItem="vzp-NW-eDV" secondAttribute="leading" id="uQb-uz-hCn"/>
+                            <constraint firstItem="yY6-Pj-RM3" firstAttribute="leading" secondItem="ce3-HQ-tPg" secondAttribute="trailing" id="xz4-lu-Vjs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RoN-yW-mVA"/>
                     </view>
                     <connections>
-                        <outlet property="turnIndicator1" destination="FrD-vS-qoU" id="3rb-CM-HnV"/>
-                        <outlet property="turnIndicator2" destination="foZ-ek-lbH" id="O1I-NZ-fN9"/>
+                        <outlet property="turnIndicator1" destination="ce3-HQ-tPg" id="agK-AJ-J04"/>
+                        <outlet property="turnIndicator2" destination="XEr-hn-ZcS" id="9us-Gw-cd8"/>
                         <outletCollection property="boardPositionButtons" destination="ETq-jY-0TI" collectionClass="NSMutableArray" id="V52-h4-OE4"/>
                         <outletCollection property="boardPositionButtons" destination="6Df-yP-zPh" collectionClass="NSMutableArray" id="wf0-0I-7A2"/>
                         <outletCollection property="boardPositionButtons" destination="BsM-rW-D4O" collectionClass="NSMutableArray" id="SST-Jv-v2l"/>
@@ -2075,14 +2074,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qI-Bx-R2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-770" y="-656"/>
+            <point key="canvasLocation" x="-770.68965517241384" y="-656.79999999999995"/>
         </scene>
     </scenes>
     <resources>
         <namedColor name="Colors/Blue">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="Colors/Gray">
+        <namedColor name="Colors/LightGray">
             <color red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Colors/Red">

@@ -10,7 +10,8 @@ final class BoardViewController: UIViewController {
     }
 
     private enum ColorName: String {
-        case gray = "Colors/Gray"
+        case lightGray = "Colors/LightGray"
+        case darkGray = "Colors/DarkGray"
         case red = "Colors/Red"
         case yellow = "Colors/Yellow"
     }
@@ -46,7 +47,7 @@ extension BoardViewController: BoardDelegate {
 
         switch disc {
         case .none:
-            discColor = .gray
+            discColor = .lightGray
             discAccessibilityLabel = .discEmpty
         case .player1:
             discColor = .red
@@ -69,12 +70,12 @@ extension BoardViewController: BoardDelegate {
         switch player {
         case .player1:
             turnIndicator1BackgroundColor = .red
-            turnIndicator2BackgroundColor = .gray
+            turnIndicator2BackgroundColor = .darkGray
             turnIndicator1AccessiblityLabel = .player1Turn
             turnIndicator2AccessiblityLabel = .player2
 
         case .player2:
-            turnIndicator1BackgroundColor = .gray
+            turnIndicator1BackgroundColor = .darkGray
             turnIndicator2BackgroundColor = .yellow
             turnIndicator1AccessiblityLabel = .player1
             turnIndicator2AccessiblityLabel = .player2Turn

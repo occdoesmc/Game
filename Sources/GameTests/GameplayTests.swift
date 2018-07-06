@@ -46,8 +46,8 @@ final class GameplayTests: TestCase {
     }
 
     func testPlayerTurnIndicator() {
-        XCTAssertTrue(application.staticTexts["It’s First Player’s Turn"].exists)
-        XCTAssertTrue(application.staticTexts["Second Player"].exists)
+        XCTAssertTrue(application.staticTexts["It’s First Player’s Turn"].isHittable)
+        XCTAssertTrue(application.staticTexts["Second Player"].isHittable)
 
         XCTAssertFalse(application.staticTexts["First Player"].exists)
         XCTAssertFalse(application.staticTexts["It’s Second Player’s Turn"].exists)
