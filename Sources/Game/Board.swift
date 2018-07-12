@@ -17,10 +17,6 @@ protocol BoardDelegate: AnyObject {
 }
 
 final class Board {
-    // Temporary workaround for old SwiftLint which itself
-    // is a temporary workaround for Xcode beta.
-    // https://stackoverflow.com/questions/51174105/xcode-10-beta-3-command-phasescriptexecution-failed-with-a-nonzero-exit-code
-    // swiftlint:disable:next weak_delegate
     weak var delegate: BoardDelegate?
 
     init(delegate: BoardDelegate) {
