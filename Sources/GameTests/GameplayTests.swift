@@ -1,55 +1,32 @@
 import XCTest
 
-final class GameplayTests: TestCase {
+final class GameplayTests: XCTestCase, BoardTesting {
+    let app = XCUIApplication()
+
     func testBoardIsEmptyWhenGameStarts() {
-        XCTAssertEqual(buttonAt(x: 0, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 0, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 0, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 0, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 0, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 0, y: 5).label, "Empty")
+        app.launch()
 
-        XCTAssertEqual(buttonAt(x: 1, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 1, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 1, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 1, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 1, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 1, y: 5).label, "Empty")
+        XCTAssertEqual(boardButtons.matching(.button, identifier: "Empty").count, defaultBoardButtonCount)
+    }
 
-        XCTAssertEqual(buttonAt(x: 2, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 2, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 2, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 2, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 2, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 2, y: 5).label, "Empty")
+    func testDiscPlacementForFirstTurn() {
+        for boardCoordinate in allBoardCoordinates {
+            app.launch()
 
-        XCTAssertEqual(buttonAt(x: 3, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 3, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 3, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 3, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 3, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 3, y: 5).label, "Empty")
+            boardButtonAt(x: boardCoordinate.x, y: boardCoordinate.y).tap()
 
-        XCTAssertEqual(buttonAt(x: 4, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 4, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 4, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 4, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 4, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 4, y: 5).label, "Empty")
-
-        XCTAssertEqual(buttonAt(x: 5, y: 0).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 5, y: 1).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 5, y: 2).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 5, y: 3).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 5, y: 4).label, "Empty")
-        XCTAssertEqual(buttonAt(x: 5, y: 5).label, "Empty")
+            XCTAssertEqual(boardButtonAt(x: boardCoordinate.x, y: defaultBoardRowsPerColumn - 1).label, "First Player", "\(boardCoordinate)")
+            XCTAssertEqual(boardButtons.matching(.button, identifier: "Empty").count, defaultBoardButtonCount - 1, "\(boardCoordinate)")
+        }
     }
 
     func testPlayerTurnIndicator() {
-        XCTAssertTrue(application.staticTexts["It’s First Player’s Turn"].isHittable)
-        XCTAssertTrue(application.staticTexts["Second Player"].isHittable)
+        app.launch()
 
-        XCTAssertFalse(application.staticTexts["First Player"].exists)
-        XCTAssertFalse(application.staticTexts["It’s Second Player’s Turn"].exists)
+        XCTAssertTrue(app.staticTexts["It’s First Player’s Turn"].isHittable)
+        XCTAssertTrue(app.staticTexts["Second Player"].isHittable)
+
+        XCTAssertFalse(app.staticTexts["First Player"].exists)
+        XCTAssertFalse(app.staticTexts["It’s Second Player’s Turn"].exists)
     }
 }

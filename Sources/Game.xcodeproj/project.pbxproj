@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		550CC1B920727D46004914DB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CC1B820727D46004914DB /* Board.swift */; };
 		5513B4F82093818C000F3185 /* GameplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513B4F72093818C000F3185 /* GameplayTests.swift */; };
-		5513B4FA2093822F000F3185 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513B4F92093822F000F3185 /* TestCase.swift */; };
+		5513B4FA2093822F000F3185 /* BoardTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513B4F92093822F000F3185 /* BoardTesting.swift */; };
 		55798BD82048782F00EB7F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55798BD72048782F00EB7F2F /* AppDelegate.swift */; };
 		55798BDA2048782F00EB7F2F /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55798BD92048782F00EB7F2F /* BoardViewController.swift */; };
 		55798BDD2048782F00EB7F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55798BDB2048782F00EB7F2F /* Main.storyboard */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		550CC1B820727D46004914DB /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		5513B4F72093818C000F3185 /* GameplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayTests.swift; sourceTree = "<group>"; };
-		5513B4F92093822F000F3185 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		5513B4F92093822F000F3185 /* BoardTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTesting.swift; sourceTree = "<group>"; };
 		55798BD42048782F00EB7F2F /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55798BD72048782F00EB7F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55798BD92048782F00EB7F2F /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				55798BEF2048783E00EB7F2F /* BoardLayoutTests.swift */,
 				5513B4F72093818C000F3185 /* GameplayTests.swift */,
-				5513B4F92093822F000F3185 /* TestCase.swift */,
+				5513B4F92093822F000F3185 /* BoardTesting.swift */,
 				55798BF12048783E00EB7F2F /* Info.plist */,
 			);
 			path = GameTests;
@@ -249,7 +249,7 @@
 			files = (
 				55798BF02048783E00EB7F2F /* BoardLayoutTests.swift in Sources */,
 				5513B4F82093818C000F3185 /* GameplayTests.swift in Sources */,
-				5513B4FA2093822F000F3185 /* TestCase.swift in Sources */,
+				5513B4FA2093822F000F3185 /* BoardTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

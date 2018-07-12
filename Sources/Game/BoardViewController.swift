@@ -16,6 +16,7 @@ final class BoardViewController: UIViewController {
         case yellow = "Colors/Yellow"
     }
 
+    @IBOutlet private var boardContentView: UIView!
     @IBOutlet private var boardPositionButtons: [UIButton] = []
     @IBOutlet private var boardDiscViews: [CircleView] = []
 
@@ -23,6 +24,12 @@ final class BoardViewController: UIViewController {
     @IBOutlet private var turnIndicator2: UIView!
 
     private var board: Board!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        boardContentView.accessibilityIdentifier = "Board"
+    }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

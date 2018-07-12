@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HLX-JK-64p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HLX-JK-64p">
     <device id="retina5_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1984,6 +1984,7 @@
                         <viewLayoutGuide key="safeArea" id="RoN-yW-mVA"/>
                     </view>
                     <connections>
+                        <outlet property="boardContentView" destination="yY6-Pj-RM3" id="KCW-mW-U2W"/>
                         <outlet property="turnIndicator1" destination="ce3-HQ-tPg" id="agK-AJ-J04"/>
                         <outlet property="turnIndicator2" destination="XEr-hn-ZcS" id="9us-Gw-cd8"/>
                         <outletCollection property="boardPositionButtons" destination="ETq-jY-0TI" collectionClass="NSMutableArray" id="V52-h4-OE4"/>
@@ -2074,7 +2075,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qI-Bx-R2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-770.68965517241384" y="-656.79999999999995"/>
+            <point key="canvasLocation" x="-948" y="-796"/>
         </scene>
     </scenes>
     <resources>
