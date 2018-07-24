@@ -48,12 +48,12 @@ final class BoardViewController: UIViewController {
 }
 
 extension BoardViewController: BoardDelegate {
-    func board(_ board: Board, didUpdate disc: BoardDisc, atIndex index: Int) {
+    func board(_ board: Board, didUpdateDiscAtIndex index: Int, to disc: BoardDisc) {
         let discColor: ColorName
         let discAccessibilityLabel: LocalizedStringKey
 
         switch disc {
-        case .none:
+        case .empty:
             discColor = .lightGray
             discAccessibilityLabel = .discEmpty
         case .player1:

@@ -2,4 +2,4 @@
 "board.player1" = "First Player";
 "board.player2" = "Second Player";
 "board.turn.player1" = "It’s First Player’s Turn";
-"board.turn.player2" = "It’s First Player’s Turn";
+"board.turn.player2" = "It’s Second Player’s Turn";

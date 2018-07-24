@@ -9,7 +9,7 @@ final class GameplayTests: XCTestCase, BoardTesting {
         XCTAssertEqual(boardButtons.matching(.button, identifier: "Empty").count, defaultBoardButtonCount)
     }
 
-    func testDiscPlacementForFirstTurn() {
+    func testDiscPlacementForTurn1() {
         for boardCoordinate in allBoardCoordinates {
             app.launch()
 
@@ -20,8 +20,55 @@ final class GameplayTests: XCTestCase, BoardTesting {
         }
     }
 
-    func testPlayerTurnIndicator() {
+    func testDiscPlacementForTurn2() {
         app.launch()
+
+        boardButtonAt(x: 0, y: 0).tap()
+        boardButtonAt(x: 1, y: 0).tap()
+
+        XCTAssertEqual(boardButtonAt(x: 0, y: 5).label, "First Player")
+        XCTAssertEqual(boardButtonAt(x: 1, y: 5).label, "Second Player")
+    }
+
+    func testDiscPlacementForTurn3() {
+        app.launch()
+
+        boardButtonAt(x: 0, y: 0).tap()
+        boardButtonAt(x: 1, y: 0).tap()
+        boardButtonAt(x: 2, y: 0).tap()
+
+        XCTAssertEqual(boardButtonAt(x: 0, y: 5).label, "First Player")
+        XCTAssertEqual(boardButtonAt(x: 1, y: 5).label, "Second Player")
+        XCTAssertEqual(boardButtonAt(x: 2, y: 5).label, "First Player")
+    }
+
+    func testPlayerTurnIndicatorForTurn1() {
+        app.launch()
+
+        XCTAssertTrue(app.staticTexts["It’s First Player’s Turn"].isHittable)
+        XCTAssertTrue(app.staticTexts["Second Player"].isHittable)
+
+        XCTAssertFalse(app.staticTexts["First Player"].exists)
+        XCTAssertFalse(app.staticTexts["It’s Second Player’s Turn"].exists)
+    }
+
+    func testPlayerTurnIndicatorForTurn2() {
+        app.launch()
+
+        boardButtonAt(x: 0, y: 0).tap()
+
+        XCTAssertTrue(app.staticTexts["It’s Second Player’s Turn"].isHittable)
+        XCTAssertTrue(app.staticTexts["First Player"].isHittable)
+
+        XCTAssertFalse(app.staticTexts["Second Player"].exists)
+        XCTAssertFalse(app.staticTexts["It’s First Player’s Turn"].exists)
+    }
+
+    func testPlayerTurnIndicatorForTurn3() {
+        app.launch()
+
+        boardButtonAt(x: 0, y: 0).tap()
+        boardButtonAt(x: 0, y: 0).tap()
 
         XCTAssertTrue(app.staticTexts["It’s First Player’s Turn"].isHittable)
         XCTAssertTrue(app.staticTexts["Second Player"].isHittable)
