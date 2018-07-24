@@ -19,10 +19,13 @@ protocol BoardDelegate: AnyObject {
 final class Board {
     weak var delegate: BoardDelegate?
 
+    private let width = 7
+    private let height = 6
+
     init(delegate: BoardDelegate) {
         self.delegate = delegate
 
-        for discIndex in 0..<42 {
+        for discIndex in 0 ..< width * height {
             delegate.board(self, didUpdate: .none, atIndex: discIndex)
         }
 
@@ -30,5 +33,10 @@ final class Board {
     }
 
     func placeDisc(atIndex index: Int) {
+        let column = index / height
+        let columnFirstIndex = column * height
+        let columnLastIndex = columnFirstIndex + height - 1
+
+        delegate?.board(self, didUpdate: .player1, atIndex: columnLastIndex)
     }
 }
