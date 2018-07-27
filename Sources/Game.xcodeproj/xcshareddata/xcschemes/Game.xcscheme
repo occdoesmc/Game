@@ -30,7 +30,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55798BEC2048783D00EB7F2F"
@@ -38,6 +39,11 @@
                BlueprintName = "GameTests"
                ReferencedContainer = "container:Game.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "GameplayTests/testDiscPlacementForTurn1()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
