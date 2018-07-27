@@ -142,4 +142,23 @@ final class GameplayTests: XCTestCase, BoardTesting {
         XCTAssertTrue(app.staticTexts["It’s First Player’s Turn"].isHittable)
         XCTAssertTrue(app.staticTexts["Second Player"].isHittable)
     }
+
+    func testDraw() {
+        app.launch()
+
+        for _ in 1...defaultBoardRowsPerColumn {
+            boardButtonAt(x: 0, y: 0).tap()
+            boardButtonAt(x: 2, y: 0).tap()
+            boardButtonAt(x: 4, y: 0).tap()
+            boardButtonAt(x: 6, y: 0).tap()
+
+            boardButtonAt(x: 1, y: 0).tap()
+            boardButtonAt(x: 3, y: 0).tap()
+            boardButtonAt(x: 5, y: 0).tap()
+        }
+
+        XCTAssertTrue(app.alerts["It's a draw!"].exists)
+        app.buttons["Play again"].tap()
+        XCTAssertEqual(boardButtons.matching(.button, identifier: "Empty").count, defaultBoardButtonCount)
+    }
 }
